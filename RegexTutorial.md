@@ -1,37 +1,53 @@
 # 17-Regex-Tutorial
-Intro
+
+Regular expressions (Regex) is sometimes also referred to as rational expression, and is a sequence of characters that specifies and matches patterns within text. Regex are used often in the coding workspace to validate specific inputs. In this assignment I will be using Regex to match character information for validating email addresses.
+
 # Summary
-Summary
+
+The code we will be summarizing today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+
 # Table of Contents
 
-1. [Screenshots](#Screenshots)
-2. [Description](#description)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Contributors](#contribution)
-6. [License Coverage](#license)
-7. [Questions](#questions)
+1. [Anchors](#Anchors)
+2. [Quantifiers](#Quantifiers)
+3. [Classes](#Classes)
+4. [Grouping](#Grouping)
+5. [Expressions](#Expressions)
+6. [Greedy and Lazy Match](#greedy-and-lazy-match)
+7. [Sources](#Sources)
+8. [Author](#Author)
 
-## section 1
+## Anchors
 
 section 1
 
-## section 2
+## Quantifiers
 
 section 2
-## section 3
+
+## Classes
 
 section 3
 
-## section 4
+## Grouping
 
 Section 4
+
+## Expressions
+
+expressions
+
+## Greedy and Lazy Match
+
+Greedy/Lazy Match
 
 ## Sources
 
 Sources
 
 # Author
+
 me
+
 - Github: (https://github.com/Anthonykahly)
 - Email: akahly@gmail.com
