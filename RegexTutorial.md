@@ -19,7 +19,7 @@ The code we will be summarizing today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-
 
 ## Anchors
 
-section 1
+Anchors are complicated in the world of Regex, as they dont match any real characters. What anchors do however is ensure that regex matches a string to a specific place, usually the beginning or end of a coding line. The anchors used to contain this email Regex are: `^` to start, and `$` to finish.
 
 ## Quantifiers
 
