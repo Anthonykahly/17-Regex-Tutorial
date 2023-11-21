@@ -27,7 +27,7 @@ In regular expressions the quantifiers specifies how many instances of a charact
 
 ## Classes
 
-section 3
+In regex a character class is defined as a set of characters enclosed within square brackets. These classes then specify the characters that will be matched to a single character from given inputs. In this regex, the character class `/d` is used, which in JS classifies the use of any digit from 0 to 9.
 
 ## Grouping
 
