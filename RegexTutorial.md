@@ -23,7 +23,7 @@ Anchors are complicated in the world of Regex, as they dont match any real chara
 
 ## Quantifiers
 
-section 2
+In regular expressions the quantifiers specifies how many instances of a character group or class have to be present in the input for that code match to be found correctly. In this regex, we used `+` to communicate that there is another sequence to be matched as a greedy quantifier. We then also used `{2,6}` as another greedy quantifer to specify the input must be a minimum of 2 characters up to a maximum of 6 characters.
 
 ## Classes
 
