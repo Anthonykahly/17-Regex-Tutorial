@@ -4,7 +4,7 @@ Regular expressions (Regex) is sometimes also referred to as rational expression
 
 # Summary
 
-The code we will be summarizing today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
+The code we will be breaking down today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/`
 
 # Table of Contents
 
@@ -43,8 +43,8 @@ Similarly to the grouping in this example, we use three bracket expressions in t
 - Bracket Expression #3: `[a-z\.]`      - includes case sensitive characters from a-z and periods.
 
 ## Greedy and Lazy Match
-
-Greedy/Lazy Match
+A greedy quantifier attempts to match elements as many times as possible, which a non-greedy (or lazy) quantifier will to match an element as few times as possible within the code.
+In tour regex we only have use greedy quantifiers `+` and `{}`, .
 
 ## Sources
 https://www.computerhope.com/jargon/r/regex.htm
