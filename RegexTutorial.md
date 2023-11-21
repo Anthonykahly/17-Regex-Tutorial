@@ -1,4 +1,4 @@
-# 17-Regex-Tutorial
+# 17-Regex-Tutorial-on-Matching-an-Email
 
 Regular expressions (Regex) is sometimes also referred to as rational expression, and is a sequence of characters that specifies and matches patterns within text. Regex are used often in the coding workspace to validate specific inputs. In this assignment I will be using Regex to match character information for validating email addresses.
 
@@ -31,7 +31,8 @@ In regex a character class is defined as a set of characters enclosed within squ
 
 ## Grouping
 
-Section 4
+Grouping is a feature of regular expressions that when used properly can simplify complex patterns within a string. In regex any subpattern that has been enclosed within parenthesis is considered a group. Capturing groups is a way of treating multiple characters as a single unit. For example the expressions (CAT) would create a single group containing the letters "C" "A" and "T".
+This email matching example captures three groups. Group #1 is the username of the e-mail account `[a-z0-9_\.-]`. The second group captures the domain name or the e-mail service being used `[\da-z\.-]`. And finally, the third group captures the domain extention (i.e .com or .net) `[a-z\.]{2,6}`
 
 ## Expressions
 
