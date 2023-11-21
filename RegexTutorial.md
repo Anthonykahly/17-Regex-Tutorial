@@ -43,12 +43,15 @@ expressions
 Greedy/Lazy Match
 
 ## Sources
-
-Sources
+https://www.computerhope.com/jargon/r/regex.htm
+https://docs.oracle.com/javase/tutorial/essential/regex/groups.html#:~:text=Capturing%20groups%20are%20a%20way,o%22%20and%20%22g%22%20.
+https://www.tutorialsteacher.com/regex/grouping#:~:text=Grouping%20is%20a%20powerful%20feature,phone%20numbers%20or%20email%20addresses.
+https://launchschool.com/books/regex/read/anchors
+https://learn.microsoft.com/en-us/dotnet/standard/base-types/quantifiers-in-regular-expressions
 
 # Author
 
-me
+My name is Anthony Kahly and I am a student at the Case Western Reserve University for the 2023 full stack web developer course. If you have any questions or concerns about any of my work please feel free to contact me.
 
 - Github: (https://github.com/Anthonykahly)
 - Email: akahly@gmail.com
