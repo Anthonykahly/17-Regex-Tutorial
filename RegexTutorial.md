@@ -12,7 +12,7 @@ The code we will be summarizing today is: `/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-
 2. [Quantifiers](#Quantifiers)
 3. [Classes](#Classes)
 4. [Grouping](#Grouping)
-5. [Expressions](#Expressions)
+5. [Bracket-Expressions](#Bracket-Expressions)
 6. [Greedy and Lazy Match](#greedy-and-lazy-match)
 7. [Sources](#Sources)
 8. [Author](#Author)
@@ -34,9 +34,13 @@ In regex a character class is defined as a set of characters enclosed within squ
 Grouping is a feature of regular expressions that when used properly can simplify complex patterns within a string. In regex any subpattern that has been enclosed within parenthesis is considered a group. Capturing groups is a way of treating multiple characters as a single unit. For example the expressions (CAT) would create a single group containing the letters "C" "A" and "T".
 This email matching example captures three groups. Group #1 is the username of the e-mail account `[a-z0-9_\.-]`. The second group captures the domain name or the e-mail service being used `[\da-z\.-]`. And finally, the third group captures the domain extention (i.e .com or .net) `[a-z\.]{2,6}`
 
-## Expressions
+## Bracket-Expressions
 
-expressions
+In regex a bracket expression is defined as either a matching list, or a non matching list expression. Bracket expressions consist of one or more expressions: ordinary characters, collating elements, collating symbols, equivalence classes, character classes, or range expressions.
+Similarly to the grouping in this example, we use three bracket expressions in this Regex. Information within these bracket expressions are contained within brackets such as `[]`. This will then identify the information we are allowing to be matched. 
+- Bracket Expression #1: `[a-z0-9_\.-]` - includes all case sensitive characters from a-z, numbers from 0-9 as well as underscore, periods and hyphens.
+- Bracket Expression #2: `[\da-z\.-]`   - includes all digits, case sensitive characters from a-z, periods and hyphens
+- Bracket Expression #3: `[a-z\.]`      - includes case sensitive characters from a-z and periods.
 
 ## Greedy and Lazy Match
 
